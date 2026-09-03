@@ -1,10 +1,10 @@
 # secscan-oci
 
-This is a small wrapper for creating an up to date docker image, exporting it as an OCI `.tar` and uploading it for scanning using the [canonical-secscan-client](https://snapcraft.io/canonical-secscan-client) tool.
+This is a small wrapper for creating an up to date docker/rock image, exporting it as an OCI `.tar`/`.rock` and uploading it for scanning using the [canonical-secscan-client](https://snapcraft.io/canonical-secscan-client) tool.
 
 ## Usage
 
-Run `./scan.sh /path/to/the/project` and wait.
+Run `./scan.sh /path/to/the/project` and wait. Append the `--rock` flag if the project is built with rockcraft.
 
 ## Getting the reports
 
